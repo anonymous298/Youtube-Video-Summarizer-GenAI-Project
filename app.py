@@ -45,7 +45,7 @@ class YoutubeSummarizer:
 
             # Creating our chain
             chain = load_summarize_chain(
-                llm = llm,
+                llm = llm, 
                 chain_type = 'stuff',
                 prompt = prompt,
             )
